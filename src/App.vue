@@ -4,25 +4,22 @@
     <v-app-bar :elevation="2" color="pink" app>
       <v-btn>
         <v-icon>mdi-home</v-icon>
-        <v-spacer></v-spacer>
-        <v-col>
+      </v-btn>
+      <v-col>
           <h3>menu1</h3>
         </v-col>
-        <v-spacer></v-spacer>
         <v-col>
           <h3>menu2</h3>
         </v-col>
-        <v-spacer></v-spacer>
         <v-col>
           <h3>menu3</h3>
         </v-col>
-      </v-btn>
 
     </v-app-bar>
     <v-main>
       <v-row>
         <v-col>
-          <v-row>
+          <v-row >
             <v-col>
               <v-card color="pink">
                 <h1>{{ todos.data_1 }}</h1>
