@@ -21,38 +21,38 @@
         <v-col>
           <v-row >
             <v-col>
-              <v-card color="pink">
+              <v-card color="red" style="height: 400px;">
                 <h1>{{ todos.data_1 }}</h1>
               </v-card>
             </v-col>
             <v-col>
-              <v-card color="pink">
+              <v-card color="teal-darken-4" style="height: 400px;">
                 <h1>{{ todos.data_2 }}</h1>
               </v-card>
             </v-col>
           </v-row>
           <v-row>
             <v-col>
-              <v-card color="pink">
+              <v-card color="purple" style="height: 200px;">
                 <h1>{{ todos.data_3 }}</h1>
               </v-card>
             </v-col>
             <v-col>
-              <v-card color="pink">
+              <v-card color="teal-darken-1" style="height: 200px;">
                 <h1>{{ todos.data_4 }}</h1>
               </v-card>
             </v-col>
           </v-row>
           <v-row>
             <v-col>
-              <v-card color="pink">
+              <v-card color="lime-darken-4" style="height: 200px;">
                 <h1>{{ todos.data_6 }}</h1>
               </v-card>
             </v-col>
           </v-row>
         </v-col>
         <v-col>
-          <v-card color="pink">
+          <v-card color="indigo-darken-3" style="height: 850px;">
             <h1>{{ todos.data_5 }}</h1>
           </v-card>
         </v-col>
